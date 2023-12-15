@@ -1,4 +1,4 @@
-![builtmighty](./assets/logo.png)
+<center>![builtmighty](./assets/logo.png)</center>
 
 # What is it ?
 
