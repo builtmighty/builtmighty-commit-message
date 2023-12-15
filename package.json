@@ -193,6 +193,6 @@
     "typescript": "^4.2.2"
   },
   "dependencies": {
-    "semver": "^7.3.5"
+    "semver": "^7.5.2"
   }
 }
