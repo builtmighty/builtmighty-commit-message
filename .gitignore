@@ -1,0 +1,9 @@
+out
+node_modules
+.vscode-test/
+package-lock.json
+assets/logo.pdn
+assets/logoold.png
+/vscode-git-commit-*.vsix
+/yarn-error.log
+assets/Preview/

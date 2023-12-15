@@ -1,0 +1,52 @@
+// Place your settings in this file to overwrite default and user settings.
+{
+  "files.exclude": {
+    "out": false // set this to true to hide the "out" folder with the compiled JS files
+  },
+  "search.exclude": {
+    "out": true // set this to false to include "out" folder in search results
+  },
+  // Turn off tsc task auto detection since we have the necessary tasks as npm scripts
+  "typescript.tsc.autoDetect": "off",
+
+  // "vscodeGitCommit.messageTemplate": ["{prefix} ({scope}): {message}"],
+
+  // "vscodeGitCommit.insertMode": "Concatenate",
+
+  // "vscodeGitCommit.predefinedPrefix": "Alpha8",
+
+  // "vscodeGitCommit.customAlias": [
+  //   {
+  //     "name": "🚀 Space",
+  //     "description": "Choose when pushing in canary at SpaceX"
+  //   },
+  //   {
+  //     "name": "😝 Easter-Egg",
+  //     "description": "Use when comitting easter-eggs for example"
+  //   }
+  // ]
+  "vscodeGitCommit.insertMode": "Concatenate",
+  "vscodeGitCommit.template": ["{feat} ({scope}): {message}"],
+  "vscodeGitCommit.variables": {
+    "feat": "alpha8"
+  },
+  "vscodeGitCommit.defaultVariablesValues": {
+    "scope": "😉"
+  },
+  "vscodeGitCommit.variablesDisplayTitles": {
+    "prefix": "Here is a title in config for testing purpose",
+    "scope": "The scope represent a global one word link to changes"
+  },
+  "workbench.colorCustomizations": {
+    "activityBar.activeBackground": "#e36b61",
+    "activityBar.activeBorder": "#136c1a",
+    "activityBar.background": "#e36b61",
+    "activityBar.foreground": "#15202b",
+    "activityBar.inactiveForeground": "#15202b99",
+    "activityBarBadge.background": "#136c1a",
+    "activityBarBadge.foreground": "#e7e7e7",
+    "tab.activeBorder": "#e36b61",
+    "sash.hoverBorder": "#e36b61"
+  },
+  "peacock.color": "#DB4236"
+}
