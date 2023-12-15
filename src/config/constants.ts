@@ -3,149 +3,381 @@ import { EXTENSION_NAME } from './const';
 
 export const QUICKPICKITEMSKEKE: Array<IQuickPickSettings> = [
   {
-    label: '✨feature',
-    detail: 'Select when creating new things',
+    label: '✨',
+    detail: 'Add new feature(s)',
   },
   {
-    label: '🐞 fix',
-    detail: 'Select when fixing a bug',
+    label: '🔌',
+    detail: 'Update plugin(s)',
   },
   {
-    label: '📄 docs',
-    detail: 'Select when editing documentation',
+    label: '📦',
+    detail: 'Update WordPress',
   },
   {
-    label: '🖥️ wip',
-    detail: 'Select when work is not finished',
+    label: '⚡️',
+    detail: 'Improve performance',
   },
   {
-    label: '🚅 perfs',
-    detail: 'Select when working on performances',
+    label: '🐛',
+    detail: 'Fix a bug',
   },
   {
-    label: '⏪ rollback',
-    detail: 'Select when undoing something',
+    label: '🔥',
+    detail: 'Remove code',
   },
   {
-    label: '🔵 other',
-    detail: 'Select when fixing a bug',
+    label: '⚰️',
+    detail: 'Remove dead code',
+  },
+  {
+    label: '♻️',
+    detail: 'Refactor code',
+  },
+  {
+    label: '🎨',
+    detail: 'Update styles',
+  },
+  {
+    label: '💫',
+    detail: 'Add JavaScript',
+  },
+  {
+    label: '🔒️',
+    detail: 'Improve security',
+  },
+  {
+    label: '🚑',
+    detail: 'A hotfix',
+  },
+  {
+    label: '🔖',
+    detail: 'Update version',
+  },
+  {
+    label: '🚧',
+    detail: 'Work in progress',
+  },
+  {
+    label: '➕',
+    detail: 'Add dependency',
+  },
+  {
+    label: '⬆️',
+    detail: 'Upgrade dependency',
+  },
+  {
+    label: '⬇️',
+    detail: 'Downgrade dependency',
+  },
+  {
+    label: '🚚',
+    detail: 'Move/rename files',
+  },
+  {
+    label: '🔍',
+    detail: 'Improve SEO',
+  },
+  {
+    label: '💬',
+    detail: 'Add comment(s)',
+  },
+  {
+    label: '✏️',
+    detail: 'Fix typo(s)',
+  },
+  {
+    label: '🙈',
+    detail: 'Add or update gitignore',
+  },
+  {
+    label: '📝',
+    detail: 'Add or update documentation',
   },
 ];
 
 export const QUICKPICKITEMSANGULAR: Array<IQuickPickSettings> = [
   {
-    label: '✨ feat',
-    detail: 'Select when creating new things',
+    label: '✨',
+    detail: 'Add new feature(s)',
   },
   {
-    label: '🐞 fix',
-    detail: 'Select when fixing a bug',
+    label: '🔌',
+    detail: 'Update plugin(s)',
   },
   {
-    label: '📄 docs',
-    detail: 'Select when editing documentation',
+    label: '📦',
+    detail: 'Update WordPress',
   },
   {
-    label: '🚀 ci',
-    detail: 'Select when editing CI scripts',
+    label: '⚡️',
+    detail: 'Improve performance',
   },
   {
-    label: '🖥️ build',
-    detail: 'Select when concerning build change or external dependencies',
+    label: '🐛',
+    detail: 'Fix a bug',
   },
   {
-    label: '⚙️ refactor',
-    detail: 'Select when no new performances or no new functionnality',
+    label: '🔥',
+    detail: 'Remove code',
   },
   {
-    label: '🌈 style',
-    detail: 'Select when working on code style',
+    label: '⚰️',
+    detail: 'Remove dead code',
   },
   {
-    label: '⚡ perf',
-    detail: 'Select when working on performances',
+    label: '♻️',
+    detail: 'Refactor code',
   },
   {
-    label: '⏪ revert',
-    detail: 'Select when going back',
+    label: '🎨',
+    detail: 'Update styles',
   },
   {
-    label: '🔵 test',
-    detail: 'Select when adding or editing tests',
+    label: '💫',
+    detail: 'Add JavaScript',
+  },
+  {
+    label: '🔒️',
+    detail: 'Improve security',
+  },
+  {
+    label: '🚑',
+    detail: 'A hotfix',
+  },
+  {
+    label: '🔖',
+    detail: 'Update version',
+  },
+  {
+    label: '🚧',
+    detail: 'Work in progress',
+  },
+  {
+    label: '➕',
+    detail: 'Add dependency',
+  },
+  {
+    label: '⬆️',
+    detail: 'Upgrade dependency',
+  },
+  {
+    label: '⬇️',
+    detail: 'Downgrade dependency',
+  },
+  {
+    label: '🚚',
+    detail: 'Move/rename files',
+  },
+  {
+    label: '🔍',
+    detail: 'Improve SEO',
+  },
+  {
+    label: '💬',
+    detail: 'Add comment(s)',
+  },
+  {
+    label: '✏️',
+    detail: 'Fix typo(s)',
+  },
+  {
+    label: '🙈',
+    detail: 'Add or update gitignore',
+  },
+  {
+    label: '📝',
+    detail: 'Add or update documentation',
   },
 ];
 
 export const QUICKPICKITEMSSEMANTIC: Array<IQuickPickSettings> = [
   {
-    label: '✨ feat',
-    detail: 'new feature for the user, not a new feature for build script',
+    label: '✨',
+    detail: 'Add new feature(s)',
   },
   {
-    label: '🐞 fix',
-    detail: 'bug fix for the user, not a fix to a build script',
+    label: '🔌',
+    detail: 'Update plugin(s)',
   },
   {
-    label: '📄 docs',
-    detail: 'changes to the documentation',
+    label: '📦',
+    detail: 'Update WordPress',
   },
   {
-    label: '🌈 style',
-    detail: 'formatting, missing semi colons, etc; no production code change',
+    label: '⚡️',
+    detail: 'Improve performance',
   },
   {
-    label: '⚙️ refactor',
-    detail: 'refactoring production code, eg. renaming a variable',
+    label: '🐛',
+    detail: 'Fix a bug',
   },
   {
-    label: '🔵 test',
-    detail:
-      'adding missing tests, refactoring tests; no production code change',
+    label: '🔥',
+    detail: 'Remove code',
   },
   {
-    label: '🚀 chore',
-    detail: 'updating grunt tasks etc; no production code change',
+    label: '⚰️',
+    detail: 'Remove dead code',
+  },
+  {
+    label: '♻️',
+    detail: 'Refactor code',
+  },
+  {
+    label: '🎨',
+    detail: 'Update styles',
+  },
+  {
+    label: '💫',
+    detail: 'Add JavaScript',
+  },
+  {
+    label: '🔒️',
+    detail: 'Improve security',
+  },
+  {
+    label: '🚑',
+    detail: 'A hotfix',
+  },
+  {
+    label: '🔖',
+    detail: 'Update version',
+  },
+  {
+    label: '🚧',
+    detail: 'Work in progress',
+  },
+  {
+    label: '➕',
+    detail: 'Add dependency',
+  },
+  {
+    label: '⬆️',
+    detail: 'Upgrade dependency',
+  },
+  {
+    label: '⬇️',
+    detail: 'Downgrade dependency',
+  },
+  {
+    label: '🚚',
+    detail: 'Move/rename files',
+  },
+  {
+    label: '🔍',
+    detail: 'Improve SEO',
+  },
+  {
+    label: '💬',
+    detail: 'Add comment(s)',
+  },
+  {
+    label: '✏️',
+    detail: 'Fix typo(s)',
+  },
+  {
+    label: '🙈',
+    detail: 'Add or update gitignore',
+  },
+  {
+    label: '📝',
+    detail: 'Add or update documentation',
   },
 ];
 
 export const QUICKPICKITEMSALPHA8: Array<IQuickPickSettings> = [
   {
-    label: '✨ feat',
-    detail: 'A new feature. Correlates with MINOR in SemVer',
+    label: '✨',
+    detail: 'Add new feature(s)',
   },
   {
-    label: '🐞 fix',
-    detail: 'A bug fix. Correlates with PATCH in SemVer',
+    label: '🔌',
+    detail: 'Update plugin(s)',
   },
   {
-    label: '📄 docs',
-    detail: 'Documentation only changes',
+    label: '📦',
+    detail: 'Update WordPress',
   },
   {
-    label: '🌈 style',
-    detail:
-      'Changes that do not affect the meaning of the code (white-space, formatting, missing semi-colons, etc)',
+    label: '⚡️',
+    detail: 'Improve performance',
   },
   {
-    label: '⚙️ refactor',
-    detail: 'A code change that neither fixes a bug nor adds a feature',
+    label: '🐛',
+    detail: 'Fix a bug',
   },
   {
-    label: '🕜 perf',
-    detail: 'A code change that improves performance',
+    label: '🔥',
+    detail: 'Remove code',
   },
   {
-    label: '🧪 test',
-    detail: 'Adding missing or correcting existing tests',
+    label: '⚰️',
+    detail: 'Remove dead code',
   },
   {
-    label: '🏗️ build',
-    detail:
-      'Changes that affect the build system or external dependencies (example scopes: pip, docker, npm)',
+    label: '♻️',
+    detail: 'Refactor code',
   },
   {
-    label: '🤹 ci',
-    detail:
-      'Changes to our CI configuration files and scripts (example scopes: GitLabCI)',
+    label: '🎨',
+    detail: 'Update styles',
+  },
+  {
+    label: '💫',
+    detail: 'Add JavaScript',
+  },
+  {
+    label: '🔒️',
+    detail: 'Improve security',
+  },
+  {
+    label: '🚑',
+    detail: 'A hotfix',
+  },
+  {
+    label: '🔖',
+    detail: 'Update version',
+  },
+  {
+    label: '🚧',
+    detail: 'Work in progress',
+  },
+  {
+    label: '➕',
+    detail: 'Add dependency',
+  },
+  {
+    label: '⬆️',
+    detail: 'Upgrade dependency',
+  },
+  {
+    label: '⬇️',
+    detail: 'Downgrade dependency',
+  },
+  {
+    label: '🚚',
+    detail: 'Move/rename files',
+  },
+  {
+    label: '🔍',
+    detail: 'Improve SEO',
+  },
+  {
+    label: '💬',
+    detail: 'Add comment(s)',
+  },
+  {
+    label: '✏️',
+    detail: 'Fix typo(s)',
+  },
+  {
+    label: '🙈',
+    detail: 'Add or update gitignore',
+  },
+  {
+    label: '📝',
+    detail: 'Add or update documentation',
   },
 ];
 
