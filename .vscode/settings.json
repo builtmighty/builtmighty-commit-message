@@ -28,7 +28,7 @@
   "vscodeGitCommit.insertMode": "Concatenate",
   "vscodeGitCommit.template": ["({branch}) {feat} {message}"],
   "vscodeGitCommit.variables": {
-    "feat": "alpha8"
+    "feat": "semantic"
   },
   "vscodeGitCommit.defaultVariablesValues": {
     "scope": "😉"
