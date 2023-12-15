@@ -8,7 +8,7 @@ import { isUpToDate } from './utils/storage';
 export function activate(context: ExtensionContext) {
   // Init
   console.log(
-    'Congratulations, your extension "rioukkevin.vscode-git-commit" is now active!'
+    'Congratulations, your extension is now active!'
   );
 
   // MIGRATION
