@@ -36,12 +36,13 @@ export const setGitMessage = (repo: Repository, msg: string): void => {
 
 export const getCurrentBranch = (repo: Repository): IQuickPickSettings[] => {
   const fullBranchName = repo.state.HEAD?.upstream?.name;
+  const shortBranchName = fullBranchName ? fullBranchName.split('/').pop() : null;
   const jiraIssuePattern = /^[A-Z]+-\d+/; // Pattern to match Jira issue ID
   const jiraIssueId = fullBranchName ? fullBranchName.match(jiraIssuePattern) : null;
 
   return [
     {
-      label: jiraIssueId ? jiraIssueId[0] : 'Jira ID not found',
+      label: jiraIssueId ? jiraIssueId[0] : shortBranchName,
       detail: '',
     },
     // ... Other options if needed
