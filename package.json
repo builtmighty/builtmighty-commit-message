@@ -46,7 +46,7 @@
   ],
   "contributes": {
     "configuration": {
-      "title": "VSCode Git Commit",
+      "title": "Built Mighty Git Commit",
       "properties": {
         "vscodeBuiltCommit.insertMode": {
           "type": "string",

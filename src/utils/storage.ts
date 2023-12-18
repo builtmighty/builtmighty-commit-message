@@ -19,7 +19,7 @@ export const isUpToDate = (context: ExtensionContext, window: any) => {
         );
       }
       window.showInformationMessage(
-        `VSCode Git Commit message is up to date 😎! (version: v${currentVersion})`
+        `Built Mighty Git Commit message is up to date 😎! (version: v${currentVersion})`
       );
       context.globalState.update(`${EXTENSION_NAME}.${KEY}`, currentVersion);
     }
