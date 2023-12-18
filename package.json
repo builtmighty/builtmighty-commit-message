@@ -41,14 +41,14 @@
   ],
   "main": "./out/index.js",
   "activationEvents": [
-    "onCommand:vscodeGitCommit.setMessage",
+    "onCommand:vscodeBuiltCommit.setMessage",
     "onStartupFinished"
   ],
   "contributes": {
     "configuration": {
       "title": "VSCode Git Commit",
       "properties": {
-        "vscodeGitCommit.insertMode": {
+        "vscodeBuiltCommit.insertMode": {
           "type": "string",
           "default": "Concatenate",
           "enum": [
@@ -61,7 +61,7 @@
           ],
           "markdownDescription": "Select new commit message mode"
         },
-        "vscodeGitCommit.template": {
+        "vscodeBuiltCommit.template": {
           "type": "array",
           "items": {
             "type": "string",
@@ -72,7 +72,7 @@
           ],
           "markdownDescription": "Add abilities to create custom message format, each variable is between mustaches and a prompt is automatically added to the workflow"
         },
-        "vscodeGitCommit.variables": {
+        "vscodeBuiltCommit.variables": {
           "type": "object",
           "default": {
             "prefix": "keke",
@@ -201,7 +201,7 @@
             ]
           }
         },
-        "vscodeGitCommit.defaultVariablesValues": {
+        "vscodeBuiltCommit.defaultVariablesValues": {
           "type": "object",
           "markdownDescription": "Define default values for free input text variables",
           "additionalProperties": {
@@ -213,7 +213,7 @@
             ]
           }
         },
-        "vscodeGitCommit.variablesDisplayTitles": {
+        "vscodeBuiltCommit.variablesDisplayTitles": {
           "type": "object",
           "markdownDescription": "Define titles displayed optionnaly on variables inputs",
           "additionalProperties": {
@@ -229,7 +229,7 @@
     },
     "commands": [
       {
-        "command": "vscodeGitCommit.setMessage",
+        "command": "vscodeBuiltCommit.setMessage",
         "title": "Git prefix emote",
         "icon": {
           "dark": "assets/icon_black.svg",
@@ -240,7 +240,7 @@
     "menus": {
       "scm/title": [
         {
-          "command": "vscodeGitCommit.setMessage",
+          "command": "vscodeBuiltCommit.setMessage",
           "group": "navigation",
           "when": "scmProvider == git"
         }
@@ -248,7 +248,7 @@
     },
     "keybindings": [
       {
-        "command": "vscodeGitCommit.setMessage",
+        "command": "vscodeBuiltCommit.setMessage",
         "key": "ctrl+alt+enter",
         "mac": "shift+cmd+enter"
       }

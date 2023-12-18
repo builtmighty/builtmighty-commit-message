@@ -16,7 +16,7 @@ export function activate(context: ExtensionContext) {
 
   // CMD register
   const disposable = commands.registerCommand(
-    'vscodeGitCommit.setMessage',
+    'vscodeBuiltCommit.setMessage',
     (params) => {
       commands.executeCommand('workbench.view.scm');
       const repoUri =

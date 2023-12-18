@@ -1,1 +1,1 @@
-export const EXTENSION_NAME = 'vscodeGitCommit';
+export const EXTENSION_NAME = 'vscodeBuiltCommit';

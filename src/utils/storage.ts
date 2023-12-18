@@ -15,7 +15,7 @@ export const isUpToDate = (context: ExtensionContext, window: any) => {
     if (gt(currentVersion, storedVersion)) {
       if (currentVersion === '3.0.1') {
         window.showInformationMessage(
-          `I'm so sorry, I failed the migration script of your settings in V3.0.0, let me know with issues if you encounter problems to revert it to good (${currentVersion}) (Only impact vscodeGitCommit.variables setting) `
+          `I'm so sorry, I failed the migration script of your settings in V3.0.0, let me know with issues if you encounter problems to revert it to good (${currentVersion}) (Only impact vscodeBuiltCommit.variables setting) `
         );
       }
       window.showInformationMessage(

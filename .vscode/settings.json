@@ -9,13 +9,13 @@
   // Turn off tsc task auto detection since we have the necessary tasks as npm scripts
   "typescript.tsc.autoDetect": "off",
 
-  // "vscodeGitCommit.messageTemplate": ["{prefix} ({scope}): {message}"],
+  // "vscodeBuiltCommit.messageTemplate": ["{prefix} ({scope}): {message}"],
 
-  // "vscodeGitCommit.insertMode": "Concatenate",
+  // "vscodeBuiltCommit.insertMode": "Concatenate",
 
-  // "vscodeGitCommit.predefinedPrefix": "Alpha8",
+  // "vscodeBuiltCommit.predefinedPrefix": "Alpha8",
 
-  // "vscodeGitCommit.customAlias": [
+  // "vscodeBuiltCommit.customAlias": [
   //   {
   //     "name": "🚀 Space",
   //     "description": "Choose when pushing in canary at SpaceX"
@@ -25,15 +25,15 @@
   //     "description": "Use when comitting easter-eggs for example"
   //   }
   // ]
-  "vscodeGitCommit.insertMode": "Concatenate",
-  "vscodeGitCommit.template": ["({branch}) {feat} {message}"],
-  "vscodeGitCommit.variables": {
+  "vscodeBuiltCommit.insertMode": "Concatenate",
+  "vscodeBuiltCommit.template": ["({branch}) {feat} {message}"],
+  "vscodeBuiltCommit.variables": {
     "feat": "semantic"
   },
-  "vscodeGitCommit.defaultVariablesValues": {
+  "vscodeBuiltCommit.defaultVariablesValues": {
     "scope": "😉"
   },
-  "vscodeGitCommit.variablesDisplayTitles": {
+  "vscodeBuiltCommit.variablesDisplayTitles": {
     "prefix": "Here is a title in config for testing purpose",
     "scope": "The scope represent a global one word link to changes"
   },
