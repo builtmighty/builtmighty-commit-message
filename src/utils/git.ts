@@ -42,7 +42,7 @@ export const getCurrentBranch = (repo: Repository): IQuickPickSettings[] => {
 
   return [
     {
-      label: jiraIssueId ? jiraIssueId[0] : shortBranchName,
+      label: jiraIssueId ? jiraIssueId[0] : shortBranchName || '',
       detail: jiraIssueId ? 'Jira Issue ID' : 'Branch Name',
     },
     // ... Other options if needed
