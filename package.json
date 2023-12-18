@@ -68,14 +68,110 @@
             "title": "Template"
           },
           "default": [
-            "{prefix}: {message}"
+            "({branch}) {scope} {message}"
           ],
           "markdownDescription": "Add abilities to create custom message format, each variable is between mustaches and a prompt is automatically added to the workflow"
         },
         "vscodeGitCommit.variables": {
           "type": "object",
           "default": {
-            "prefix": "keke"
+            "prefix": "keke",
+            "feat": "angular",
+            "branch": "branch",
+            "scope": [
+              {
+                  "label": "✨",
+                  "detail": "Add new feature(s)"
+              },
+              {
+                  "label": "🔌",
+                  "detail": "Update plugin(s)"
+              },
+              {
+                  "label": "📦",
+                  "detail": "Update WordPress"
+              },
+              {
+                  "label": "⚡️",
+                  "detail": "Improve performance"
+              },
+              {
+                  "label": "🐛",
+                  "detail": "Fix a bug"
+              },
+              {
+                  "label": "🔥",
+                  "detail": "Remove code"
+              },
+              {
+                  "label": "⚰️",
+                  "detail": "Remove dead code"
+              },
+              {
+                  "label": "♻️",
+                  "detail": "Refactor code"
+              },
+              {
+                  "label": "🎨",
+                  "detail": "Update styles"
+              },
+              {
+                  "label": "💫",
+                  "detail": "Add JavaScript"
+              },
+              {
+                  "label": "🔒️",
+                  "detail": "Improve security"
+              },
+              {
+                  "label": "🚑",
+                  "detail": "A hotfix"
+              },
+              {
+                  "label": "🔖",
+                  "detail": "Update version"
+              },
+              {
+                  "label": "🚧",
+                  "detail": "Work in progress"
+              },
+              {
+                  "label": "➕",
+                  "detail": "Add dependency"
+              },
+              {
+                  "label": "⬆️",
+                  "detail": "Upgrade dependency"
+              },
+              {
+                  "label": "⬇️",
+                  "detail": "Downgrade dependency"
+              },
+              {
+                  "label": "🚚",
+                  "detail": "Move/rename files"
+              },
+              {
+                  "label": "🔍",
+                  "detail": "Improve SEO"
+              },
+              {
+                  "label": "💬",
+                  "detail": "Add comment(s)"
+              },
+              {
+                  "label": "✏️",
+                  "detail": "Fix typo(s)"
+              },
+              {
+                  "label": "🙈",
+                  "detail": "Add or update gitignore"
+              },
+              {
+                  "label": "📝",
+                  "detail": "Add or update documentation"
+              }
+            ]
           },
           "markdownDescription": "Define variables that use QuickPick, **if a variable is not defined, a Text input will be displayed**",
           "additionalProperties": {
