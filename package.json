@@ -2,7 +2,7 @@
   "name": "builtmighty-commit",
   "displayName": "Built Mighty Commit Message",
   "description": "Harmonize your git commit message with the rest of the Built Mighty team.",
-  "version": "1.3.0",
+  "version": "1.4.0",
   "engines": {
     "vscode": "^1.60.0"
   },
@@ -80,96 +80,96 @@
             "branch": "branch",
             "scope": [
               {
-                  "label": "✨",
-                  "detail": "Add new feature(s)"
+                "label": "✨",
+                "detail": "Add new feature(s)"
               },
               {
-                  "label": "🔌",
-                  "detail": "Update plugin(s)"
+                "label": "🔌",
+                "detail": "Update plugin(s)"
               },
               {
-                  "label": "📦",
-                  "detail": "Update WordPress"
+                "label": "📦",
+                "detail": "Update WordPress"
               },
               {
-                  "label": "⚡️",
-                  "detail": "Improve performance"
+                "label": "⚡️",
+                "detail": "Improve performance"
               },
               {
-                  "label": "🐛",
-                  "detail": "Fix a bug"
+                "label": "🐛",
+                "detail": "Fix a bug"
               },
               {
-                  "label": "🔥",
-                  "detail": "Remove code"
+                "label": "🔥",
+                "detail": "Remove code"
               },
               {
-                  "label": "⚰️",
-                  "detail": "Remove dead code"
+                "label": "⚰️",
+                "detail": "Remove dead code"
               },
               {
-                  "label": "♻️",
-                  "detail": "Refactor code"
+                "label": "♻️",
+                "detail": "Refactor code"
               },
               {
-                  "label": "🎨",
-                  "detail": "Update styles"
+                "label": "🎨",
+                "detail": "Update styles"
               },
               {
-                  "label": "💫",
-                  "detail": "Add JavaScript"
+                "label": "💫",
+                "detail": "Add JavaScript"
               },
               {
-                  "label": "🔒️",
-                  "detail": "Improve security"
+                "label": "🔒️",
+                "detail": "Improve security"
               },
               {
-                  "label": "🚑",
-                  "detail": "A hotfix"
+                "label": "🚑",
+                "detail": "A hotfix"
               },
               {
-                  "label": "🔖",
-                  "detail": "Update version"
+                "label": "🔖",
+                "detail": "Update version"
               },
               {
-                  "label": "🚧",
-                  "detail": "Work in progress"
+                "label": "🚧",
+                "detail": "Work in progress"
               },
               {
-                  "label": "➕",
-                  "detail": "Add dependency"
+                "label": "➕",
+                "detail": "Add dependency"
               },
               {
-                  "label": "⬆️",
-                  "detail": "Upgrade dependency"
+                "label": "⬆️",
+                "detail": "Upgrade dependency"
               },
               {
-                  "label": "⬇️",
-                  "detail": "Downgrade dependency"
+                "label": "⬇️",
+                "detail": "Downgrade dependency"
               },
               {
-                  "label": "🚚",
-                  "detail": "Move/rename files"
+                "label": "🚚",
+                "detail": "Move/rename files"
               },
               {
-                  "label": "🔍",
-                  "detail": "Improve SEO"
+                "label": "🔍",
+                "detail": "Improve SEO"
               },
               {
-                  "label": "💬",
-                  "detail": "Add comment(s)"
+                "label": "💬",
+                "detail": "Add comment(s)"
               },
               {
-                  "label": "✏️",
-                  "detail": "Fix typo(s)"
+                "label": "✏️",
+                "detail": "Fix typo(s)"
               },
               {
-                  "label": "🙈",
-                  "detail": "Add or update gitignore"
+                "label": "🙈",
+                "detail": "Add or update gitignore"
               },
               {
-                  "label": "📝",
-                  "detail": "Add or update documentation"
+                "label": "📝",
+                "detail": "Add or update documentation"
               }
             ]
           },
