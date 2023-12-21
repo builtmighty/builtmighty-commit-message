@@ -8,15 +8,11 @@ This extension is an extension made to formalize git commit messages for Built M
 
 To build, run:
 
-```
-npm run compile
-```
+```npm run compile```
 
 And then:
 
-```
-vsce package 1.0.0
-```
+```vsce package 1.0.0```
 
 #### **1.0.0**
 
