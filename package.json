@@ -2,11 +2,11 @@
   "name": "builtmighty-commit",
   "displayName": "Built Mighty Commit Message",
   "description": "Harmonize your git commit message with the rest of the Built Mighty team.",
-  "version": "1.7.0",
+  "version": "1.8.0",
   "engines": {
     "vscode": "^1.60.0"
   },
-  "publisher": "Built Mighty",
+  "publisher": "BuiltMighty",
   "license": "MIT",
   "homepage": "https://builtmighty.com",
   "bugs": {
